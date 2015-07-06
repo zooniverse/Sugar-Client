@@ -1,11 +1,11 @@
 {
   "name": "sugar-client",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "client.js",
   "scripts": {
     "test": "mocha",
-    "build": "browserify --extension .coffee --transform coffeeify --transform [uglifyify --exts .js --exts .coffee] --entry index.coffee --outfile index.js",
-    "watch": "watchify --verbose --extension .coffee --transform coffeeify --entry index.coffee --outfile index.js",
+    "build": "coffee --compile client.coffee",
+    "watch": "coffee --compile --watch client.coffee",
     "start": "npm run watch"
   },
   "devDependencies": {

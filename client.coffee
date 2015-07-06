@@ -19,6 +19,9 @@ class SugarClient
     @primus.on 'outgoing::url', @primusUrl
     @primus.on 'data', @receiveData
 
+  host: ->
+    SugarClient.host
+
   primusUrl: (baseUrl) =>
     if @userId and @authToken
       baseUrl.query = "user_id=#{ @userId }&auth_token=#{ @authToken }"
