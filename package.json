@@ -14,7 +14,7 @@
     "coffee-script": "~1.9.3",
     "coffeeify": "~1.1.0",
     "uglifyify": "~3.0.1",
-    "git-pre-hooks": "~1.1.1",
+    "git-pre-hooks": "~1.2.0",
     "mocha": "~2.2.5",
     "chai": "~2.3.0",
     "chai-spies": "~0.5.1"
