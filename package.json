@@ -13,7 +13,7 @@
     "watchify": "~3.2.3",
     "coffee-script": "~1.9.3",
     "coffeeify": "~1.1.0",
-    "uglifyify": "~3.0.1",
+    "uglifyify": "~5.0.1",
     "git-pre-hooks": "~1.1.1",
     "mocha": "~2.2.5",
     "chai": "~2.3.0",
