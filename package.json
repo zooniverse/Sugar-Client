@@ -22,5 +22,8 @@
   "git-pre-hooks": {
     "pre-commit": "npm run build",
     "pre-push": "npm test"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
