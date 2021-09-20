@@ -3,6 +3,8 @@
   "version": "1.0.1",
   "main": "client.js",
   "scripts": {
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish",
     "test": "mocha"
   },
   "devDependencies": {
