@@ -1,5 +1,7 @@
 # Sugar Client
 
+**Deprecated** the code for the Sugar client has moved to the [`panoptes-client`](https://github.com/zooniverse/panoptes-javascript-client) package.
+
 A javascript client for [Sugar](https://github.com/zooniverse/sugar), a notification service using web sockets. 
 
 ## Primus library
